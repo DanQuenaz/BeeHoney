@@ -14,7 +14,7 @@ class Main:
         pygame.mixer.music.play(-1)
 
         self.window = pygame.display.set_mode([360, 640])
-        self.title = pygame.display.set_caption("Bee Honey 2")
+        self.title = pygame.display.set_caption("Bee Honey 2.1")
 
         self.loop = True
         self.fps = pygame.time.Clock()
